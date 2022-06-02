@@ -1,0 +1,16 @@
+{
+    "name": "newgen-tests-front",
+    "private": true,
+    "main": "main.js",
+    "type": "module",
+    "author": {
+        "name": "Jag_k",
+        "email": "jag.konon@gmail.com",
+        "url": "https://github.com/jag-k"
+    },
+    "homepage": "https://jag-k.github.io/newgen-tests-front",
+    "repository": "github:jag-k/newgen-tests-front",
+    "scripts": {
+        "start": "node main.js"
+    }
+}

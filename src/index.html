@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewGen tests front</title>
+  <link rel="stylesheet" href="public/styles/index.css">
+</head>
+<body>
+<header>
+  <h1>NewGen tests front</h1>
+  <div>
+    <a href="https://github.com/jag-k/newgen-tests-front" target="_blank">View on GitHub</a>
+  </div>
+</header>
+<main>
+  <fieldset>
+    <legend>Filter courses</legend>
+
+    <div class="labels">
+      <label>
+        <span>From</span>
+        <input type="number" name="from" data-course-price="from" min="0" value="" placeholder="any">
+      </label>
+
+      <label>
+        <span>To</span>
+        <input type="number" name="to" data-course-price="to" min="0" value="" placeholder="any">
+      </label>
+    </div>
+
+    <output></output>
+  </fieldset>
+
+  <table>
+    <caption>Courses</caption>
+    <thead>
+    <tr>
+      <th>Course Name</th>
+      <th>Price</th>
+    </tr>
+    </thead>
+    <tbody data-course-list>
+    </tbody>
+  </table>
+</main>
+<script src="public/scripts/index.js" type="module"></script>
+</body>
+</html>
