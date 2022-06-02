@@ -1,4 +1,4 @@
-import {algorithm} from "./src/public/scripts/algorithm.js";
+import {algorithm} from "./docs/public/scripts/algorithm.js";
 
 // Список курсов
 let courses = [

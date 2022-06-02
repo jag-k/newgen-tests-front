@@ -14,9 +14,6 @@ export function algorithm(courses, range) {
 
     return courses.filter((course) => {
         const [min, max] = infRange(course.prices);
-        console.log(course.name, Math.max(min, from), Math.min(max, to))
-        return (
-            Math.max(min, from) <= Math.min(max, to)
-        );
+        return Math.max(min, from) <= Math.min(max, to);
     });
 }
